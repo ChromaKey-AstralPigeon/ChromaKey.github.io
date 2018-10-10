@@ -1,0 +1,80 @@
+
+* //css reset
+{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: inerit;
+	box-sizing: inherit;
+	max-width:960px;
+}
+
+@font-face{
+	font-family:SFOuterLimitsUpright;
+	src:url(fonts/SFOuterLimitsUpright.ttf);
+}
+
+@font-face{
+	font-family:galaxymonkey;
+	src:url(fonts/galax___.ttf);
+}
+
+@font-face{
+	font-family:Friz;
+	src:url(fonts/Friz_Quadrata_Std_Regular.otf);
+}
+
+p{
+	margin-left:10%; 
+	margin-right:10%; 
+	font-family:Friz;
+	font-size:200%;
+	color:white;
+}
+
+div{
+	font-family:Friz;
+}
+
+h1{
+	font-family:galaxymonkey;
+	color:white;
+	font-size: 400%;
+	text-align:center;
+	max-width:960px;
+	margin:auto;
+}
+
+button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.vertical-menu{
+	top :50%;
+	position:absolute;
+	width:70%;
+	vertical-align:middle;
+	margin:4em 15%;
+}
+
+.vertical-menu button{
+	font-family:galaxymonkey;
+	color:white;
+	box-sizing:inherit;
+	display:block;
+	font-size:300%;
+	margin:auto;
+}
+
+.vertical-menu button:hover{
+	color:grey;
+}
